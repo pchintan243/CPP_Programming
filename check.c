@@ -12,7 +12,7 @@ int main()
     {
         for (j = 0; j < m; ++j)
         {
-            printf("Enter %d%d element", i, j);
+            printf("Enter a[%d][%d] element", i, j);
             scanf("%d", &a[i][j]);
             if (a[i][j] != 0)
             {
