@@ -29,6 +29,6 @@ int main()
         }
         mx = max(a[i], mx);
     }
-    cout << "your maximum record breaking day is :" << ans;
+    cout << "your maximum record breaking day is :" << ans << endl;
     return 0;
 }
