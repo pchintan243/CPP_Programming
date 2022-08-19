@@ -12,20 +12,22 @@ public:
 
         a = n;
     }
-    friend void add(x,y);
+    friend void add(x, y);
 };
 class y
 {
     int b;
+
 public:
     void set(int n)
     {
         b = n;
     }
-    friend void add(x,y);
+    friend void add(x, y);
 };
 
-void add(x o1,y o2) {
+void add(x o1, y o2)
+{
 
     cout << "Your sum is : " << (o1.a + o2.b) << endl;
 }
@@ -37,6 +39,6 @@ int main()
     y b;
     b.set(6);
 
-    add(a,b);
+    add(a, b);
     return 0;
 }
