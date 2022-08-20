@@ -1,5 +1,5 @@
 *.exe
 .vscode/
-check
+check.cpp
 check1
 check2
