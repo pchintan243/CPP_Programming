@@ -2,5 +2,5 @@
 *.c
 .vscode/
 check.cpp
-check1
-check2
+check1.cpp
+check2.cpp
