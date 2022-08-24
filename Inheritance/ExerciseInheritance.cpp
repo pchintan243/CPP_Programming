@@ -10,12 +10,12 @@ protected:
     char choice1;
 
 public:
-    void setNumber(int n1, int n2)
+    void setNumberSimple(int n1, int n2)
     {
         num1 = n1;
         num2 = n2;
     }
-    void setChoice()
+    void setChoiceSimple()
     {
         cout << "Enter the choice which you want to perform:\n1.sum(+)\n2.subtraction(-)\n3.multiplication(*)\n4.division(/)" << endl;
         cin >> choice1;
@@ -50,12 +50,12 @@ protected:
     char choice2;
 
 public:
-    void setNumber(int n1, int n2)
+    void setNumberScientific(int n1, int n2)
     {
         number1 = n1;
         number2 = n2;
     }
-    void setChoice()
+    void setChoiceScientific()
     {
         cout << "Enter the choice which you want to perform:\n1.module(r)\n2.square(p)\n3.squareroot(s)\n4.cube(c)" << endl;
         cin >> choice2;
@@ -92,19 +92,17 @@ class HybridCalculator : public SimpleCalculator, public ScientificCalculator{
 
 int main()
 {
-    SimpleCalculator s1;
+    HybridCalculator h1;
     int number1,number2;
     cout << "Enter the first number: "<< endl;
     cin >> number1;
     cout << "Enter the second number: "<< endl;
     cin >> number2;
-    s1.setNumber(number1, number2);
-    s1.setChoice();
-    s1.performOperationSimple();
-
-    ScientificCalculator s2;
-    s2.setNumber(number1, number2);
-    s2.setChoice();
-    s2.performOperationScientific();
+    h1.setNumberSimple(number1, number2);
+    h1.setChoiceSimple();
+    h1.performOperationSimple();
+    h1.setNumberScientific(number1, number2);
+    h1.setChoiceScientific();
+    h1.performOperationScientific();
     return 0;
 }
