@@ -1,15 +1,15 @@
-/* polymorphism is two types :
+/* Polymorphism is two types :
 
-    one name and multiple forms 
-    ex. function overloading , operator overloading
-    ex. virtual function
-    1. compile time polymorphpispm 
-
+    One name and multiple forms
+    ex. Function overloading , operator overloading
+    ex. Virtual function
+    1. Compile time polymorphpispm
+        -> It is know which function is calling next.
         1.function overloading
         2.operator overloading
 
-    2. run time polymorphpispm 
+    2. Run time polymorphpispm
 
-        virtual function 
-
-        */
+        Virtual function
+        
+*/
