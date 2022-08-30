@@ -13,7 +13,7 @@ using namespace std;
 // 2. Algorithm --> sorting, searching, use template function, Procedure to process data
 /* 3. Iterators --> objects which points to an element of a container
                 --> handle just like a pointers
-                --> connects algorithms with containers
+                // --> connects algorithms with containers
 */
 
 int main()
