@@ -3,7 +3,7 @@ using namespace std;
 
 // Containers
 /* 1. Sequence containers --> Linear fashion to stores the data
-                            //   Example: Vector, List, Dequeue
+                              Example: Vector, List, Dequeue
                               searching, insertion, deletion process is slow
 
 */
