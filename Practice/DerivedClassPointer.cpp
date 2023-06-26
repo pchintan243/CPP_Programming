@@ -5,7 +5,7 @@ class Base
 {
 public:
     int base;
-    void dis()
+    virtual void dis()
     {
         cout << "Base" << base << endl;
     }
